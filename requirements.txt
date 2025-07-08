@@ -1,0 +1,31 @@
+# Core Dependencies for Tennis Video Analysis
+opencv-python>=4.5.0
+numpy>=1.20.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# New Stroke Detection System Dependencies
+librosa>=0.10.0          # Audio analysis for ball-racket contact detection
+soundfile>=0.12.0        # Audio file I/O operations
+mediapipe>=0.10.0        # Pose estimation for stroke classification
+scikit-learn>=1.0.0      # Machine learning utilities
+
+# AI/ML Components
+ultralytics>=8.0.0       # YOLO object detection
+torch>=1.12.0            # PyTorch for neural networks (optional)
+torchvision>=0.13.0      # Computer vision utilities (optional)
+
+# Additional Utilities
+matplotlib>=3.3.0        # Plotting and visualization
+requests>=2.25.0         # HTTP requests for model downloads
+Pillow>=8.0.0           # Image processing
+joblib>=1.0.0           # Parallel processing
+
+# Optional Performance Enhancements
+numba>=0.50.0           # JIT compilation for speed (optional)
+opencv-contrib-python>=4.5.0  # Extended OpenCV features (alternative to opencv-python)
+
+# Development and Testing (optional)
+pytest>=6.0.0          # Testing framework
+black>=21.0.0           # Code formatting
+flake8>=3.8.0           # Code linting

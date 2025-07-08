@@ -1,0 +1,164 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+tennis_env/
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+input_videos/
+output_videos/
+Output_videos/
+stubs/
+*.pkl
+*.avi
+*.mp4
+*.mov
+*.wav
+*.pt
+*.pth
+
+# Model files (too large for GitHub)
+models/
+yolov8*.pt
+*.weights
+
+# API Keys and sensitive data
+API_Keys.txt
+api_keys.json
+*.key
+*.pem
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache
+*.pyc
+__pycache__/
+
+# Compiled files
+*.o
+*.so
+*.dylib
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Large media files
+*.mp3
+*.flac
+*.mkv
+*.webm
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Configuration files with secrets
+config.ini
+secrets.yaml
+.env.local
+.env.production
+
+# Tennis analysis specific outputs
+stroke_analysis_output/
+player_tracking_output/
+court_detection_output/
+analysis_results/
+*.csv
